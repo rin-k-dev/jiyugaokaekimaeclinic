@@ -307,7 +307,7 @@ p, span {
     cursor: pointer;
   }
 }
-.l-hero .l-hero-container {
+.l-hero .l-hero__container {
   width: 100%;
   background-image: url("../images/main-visual-bg-sp.png");
   background-repeat: no-repeat;
@@ -316,19 +316,19 @@ p, span {
   padding-bottom: 7.5rem;
 }
 
-.l-hero .l-hero-container h2 picture img {
+.l-hero .l-hero__container h2 picture img {
   width: 14.375rem;
   margin-top: 1.875rem;
 }
 
 @media screen and (min-width: 960px) {
-  .l-hero .l-hero-container {
+  .l-hero .l-hero__container {
     max-width: 1440px;
     margin: 0 auto;
     background-image: url("../images/main-visual-bg.png");
     padding-bottom: 15rem;
   }
-  .l-hero .l-hero-container h2 picture img {
+  .l-hero .l-hero__container h2 picture img {
     width: 36.75rem;
     margin-top: 3.75rem;
   }
